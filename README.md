@@ -20,7 +20,7 @@
 
 ```
 # base-url-config.js
-// (function simplefiedKushimConfig() {
+// (function simplefiedServerConfig() {
 let baseURL = "";
 let href = window.location.href;
 
@@ -29,10 +29,10 @@ let BaseURLIncludeMap = {
   "172.18": "/rxpxa/",
   "dev-web": "/xxxx/dev-server/",
   "pro-web": "/xxx/pro-server/",
-  "t.github": "http://t.kushimai.com/rpa-server/",
-  "dev.github": "http://dev.kushimai.com/rpa/",
+  "t.github": "http://t.xxx.com/xxx-server/",
+  "dev.github": "http://dev.xxx.com/xxx/",
   "github.com": "http://aaaaaam/server/",
-  "rpa.kushimai": "http://xxxxx/server/",
+  "rpa.xxx": "http://xxxxx/server/",
   "local-web": "/rpa/local-server/"
 };
 

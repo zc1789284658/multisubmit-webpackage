@@ -63,4 +63,12 @@ import {baseURL} from 'xxxx/base-url-config.js'
 axios.defaults.baseURL = baseURL;
 ```
 
-### 6.如果方案5不满意，可以建立一个固定ip的服务，讲各服务器中baseURL等配置配置在数据库中，从数据库中获取
+### 6.如果方案5不满意，可以建立一个固定ip的服务，将各服务器中baseURL等配置配置在数据库中，从数据库中获取
+
+
+```
+//通过公用的配置api获取当前ip下的远程服务器
+import { getRemoteBaseURL } from 'xxxx/api'
+
+axios.defaults.baseURL = await getRemoteBaseURL();
+```
